@@ -33,7 +33,7 @@ const About = () => {
             Motivated Mobile Developer, Software Engineer and IoT Engineer
               
             </h3>
-            <p className="sm:mb-3 mb-6">
+            <p className="mb-6">
             Software Developer and IoT Expert specialized in user-centric websites, mobile apps, and IoT solutions. Proficient in HTML, CSS, Python, Django, Flutter, and mobile development.
             </p>
 
