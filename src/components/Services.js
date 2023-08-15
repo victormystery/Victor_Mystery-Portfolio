@@ -10,7 +10,7 @@ const services = [
   {
     name: "Mobile Developer",
     description:
-      "Skilled Flutter Developer creating user-friendly mobile apps with seamless navigation and interactive features. Proficient in Flutter framework, UI/UX design, and integrating APIs. Committed to delivering top-notch user experiences and collaborating effectively in cross-functional teams.",
+      "Skilled Flutter Developer creating user-friendly mobile apps with seamless navigation and interactive features. Proficient in Flutter framework, UI/UX design, and integrating APIs.",
     link: "Learn more",
   },
   {

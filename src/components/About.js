@@ -34,7 +34,7 @@ const About = () => {
               
             </h3>
             <p className="sm:mb-3 mb-6">
-            Software Developer and IoT Expert specialized in user-centric websites, mobile apps, and IoT solutions. Proficient in HTML, CSS, Python, Django, Flutter, and mobile development. Let's discuss elevating organizations through digital solutions.
+            Software Developer and IoT Expert specialized in user-centric websites, mobile apps, and IoT solutions. Proficient in HTML, CSS, Python, Django, Flutter, and mobile development.
             </p>
 
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 ">
