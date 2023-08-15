@@ -8,15 +8,15 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "Bussiness Intelligence Analyst",
+    name: "Mobile Developer",
     description:
-      "Experienced BI Analyst transitioning to impactful Data Science. Expert in deriving insights from complex data for informed strategies, growth, and improvement.",
+      "Skilled Flutter Developer creating user-friendly mobile apps with seamless navigation and interactive features. Proficient in Flutter framework, UI/UX design, and integrating APIs. Committed to delivering top-notch user experiences and collaborating effectively in cross-functional teams.",
     link: "Learn more",
   },
   {
-    name: "Data Analyst",
+    name: "Software Engineer",
     description:
-      "Dedicated BI professional shifting to impactful Data Science. Skilled in extracting insights from complex data for informed decisions and strategic success",
+      "Django-focused Software Engineer skilled in crafting robust web applications, experienced collaborator, adept at enhancing user experiences.",
     link: "Learn more",
   },
   
@@ -31,8 +31,7 @@ const Services = () => {
           <div className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mb-12 lg:mb-0">
             <h2 className="h2 text-accent mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              Motivated Business Intelligence Analyst, Data Analyst and Product
-              Manager
+            Motivated Mobile Developer, Software Engineer and IoT Engineer
             </h3>
             <button className="btn btn-sm">
               <a

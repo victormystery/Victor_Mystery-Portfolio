@@ -30,17 +30,17 @@ const About = () => {
           <div className="flex-1">
             <h2 className="h2 text-accent">About me</h2>
             <h3 className="h3 mb-4">
-              Motivated Business Intelligence Analyst, Data Analyst and Product
-              Manager
+            Motivated Mobile Developer, Software Engineer and IoT Engineer
+              
             </h3>
             <p className="sm:mb-3 mb-6">
-            I'm a dedicated BI Analyst and Data professional with a BSc in Computer Science. My journey blends analytical precision with strategic vision. As an advocate for data-driven decision-making, I'm committed to providing insights and leading projects that redefine industry standards. I aim to catalyze business growth, empower teams, and drive innovation
+            Software Developer and IoT Expert specialized in user-centric websites, mobile apps, and IoT solutions. Proficient in HTML, CSS, Python, Django, Flutter, and mobile development. Let's discuss elevating organizations through digital solutions.
             </p>
 
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 ">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={18} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={12} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Months of <br />
@@ -60,7 +60,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br />
@@ -72,7 +72,7 @@ const About = () => {
             <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">
                 <a
-                  href="https://docs.google.com/document/d/1jU4KJznBABCMTlkTeuKKqipFMwNHrfPg/edit?usp=sharing&ouid=117297486223789244966&rtpof=true&sd=true"
+                  href="https://drive.google.com/file/d/1F74SNjyx7GViZAvPm5KdWiObQqeWMhDq/view?usp=drive_link"
                   download
                   target="_blank"
                 >

@@ -7,17 +7,19 @@
 .btn {
   background: linear-gradient(
     to right,
-    #007bff,
-    #0000ff
+    #ff8c00,
+    #ff6f61
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  box-shadow: 0px 4.42184px 107.23px #E6E6FA
+  ;
 }
 
 .btn:hover {
   background: linear-gradient(
     to right,
-    #0000ff,
-    #007bff
+    #ff8c00,
+    #ff6f61
+   
   );
 }
 
@@ -25,8 +27,8 @@
 .active {
   background: linear-gradient(
     to right,
-    #0000ff,
-    #007bff
+    #ff8c00,
+    #ff6f61
    
   );
 }

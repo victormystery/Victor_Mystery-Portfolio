@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/avatar.png";
+import Image from "../assets/about.png";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -22,18 +22,18 @@ const Banner = () => {
               // viewport={{ once: false, amount: 0.7 }}
               className="text-[35px] font-bold leading-[0.8] lg:text-[50px]"
             >
-              Emmanuel <span>Isaiah</span>
+              Victor <span>Osarobo</span>
             </motion.h1>
 
             <div className="mb-6 text-[36px] lg:text-[-60px] font-secondary font-semibold uppercase leading-[1]">
               <span className=" text-black mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Business Intelligence Analyst",
+                  "Mobile Developer",
                   2000,
-                  "Data Analyst",
+                  "Software Engineer",
                   2000,
-                  "Product Manager",
+                  "IoT Developer",
                   2000,
                 ]}
                 speed={50}
@@ -43,12 +43,7 @@ const Banner = () => {
               />
             </div>
             <p className="mb-8 max-w-lg mx-auto lg:mx-0">
-              Experienced Business Intelligence Analyst with a BSc in Computer
-              Science, seeking to enhance expertise in business analysis and
-              pursue a career in Data Science. Strong analytical mindset,
-              attention to detail, and proficient data skills. Eager to
-              contribute insights for data-driven decision-making and drive
-              business growth.
+            Experienced Software Developer and IoT Expert with a passion for innovative problem-solving. I excel in collaborative environments, specializing in creating exceptional user-centric websites, applications, and IoT solutions. My proficiency encompasses software development, Python, Django, Flutter, and IoT technologies. I'm dedicated to crafting flawless digital experiences that leave a lasting impact. My expertise spans user experience, speed optimization, and industry standards. Let's discuss crafting software solutions to elevate organizations.
             </p>
             <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">Contact me</button>
@@ -58,13 +53,13 @@ const Banner = () => {
             </div>
 
             <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
-              <a  href="http://linkedin.com/in/tomiwatheanalyst/" target="_blank" rel="noopener noreferrer">
+              <a  href="https://www.linkedin.com/in/osarobo-victor/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://github.com/Tomiwahimself" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/victormystery?tab=repositories" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/mystery_osoro" target="_blank" rel="noopener noreferrer">
                 <FaTwitter />
               </a>
             </div>
