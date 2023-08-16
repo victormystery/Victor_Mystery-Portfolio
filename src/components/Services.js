@@ -35,7 +35,7 @@ const Services = () => {
             </h3>
             <button className="btn btn-sm">
               <a
-                href="https://github.com/Tomiwahimself"
+                href="https://github.com/victormystery?tab=repositories"
                 download
                 target="_blank"
               >
