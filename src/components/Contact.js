@@ -1,4 +1,5 @@
-import React from "react";
+import React,{ useState } from "react";
+
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
@@ -6,26 +7,29 @@ import { fadeIn } from "../variants";
 
 
 
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyD1iLqBOF79lceKoQDD8Pgeyn-ekKiGrRA",
-//   authDomain: "victor-osarobo.firebaseapp.com",
-//   projectId: "victor-osarobo",
-//   storageBucket: "victor-osarobo.appspot.com",
-//   messagingSenderId: "818928810445",
-//   appId: "1:818928810445:web:84075a7ada1013bfb56c84",
-//   measurementId: "G-KBHNFCG2RS"
-// };
+const firebaseConfig = {
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+};
 
 
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const Contact = () => {
+  
   return (
     <section className="py-16 lg:section" id="contact">
       <div className="container mx-auto">

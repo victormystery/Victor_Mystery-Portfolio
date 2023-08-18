@@ -48,11 +48,11 @@ const Work = () => {
               />
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Data Analyst</span>
+                <span className="text-gradient">Rove Transport</span>
               </div>
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Product-Recommendation-Engine</span>
+                <span className="text-3xl text-white">Flutter</span>
               </div>
             </div>
             
@@ -70,11 +70,11 @@ const Work = () => {
                 />
 
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient"> Data Analyst</span>
+                  <span className="text-gradient"> Catchy</span>
                 </div>
 
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl text-white">SpaceX</span>
+                  <span className="text-3xl text-white">Flutter, Firebase</span>
                 </div>
               </div>
 
@@ -88,11 +88,11 @@ const Work = () => {
                 />
 
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient"> Data Analyst</span>
+                  <span className="text-gradient"> Tripster</span>
                 </div>
 
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl text-white">PowerBi</span>
+                  <span className="text-3xl text-white">Flutter, Firebase</span>
                 </div>
             </div>
               
